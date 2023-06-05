@@ -20,8 +20,8 @@ public class desafio4 {
 
        double idadeFeminino = 0;
        double idadeMasculino = 0;
-       double mediaIdadeFeminino;
-       double mediaIdadeMasculino;
+       double mediaIdadeFeminino = 0;
+       double mediaIdadeMasculino = 0;
 
        double maiorSalario = 0.0;
        double menorSalario = 0.0;
@@ -70,6 +70,14 @@ public class desafio4 {
 
        double mediaIdadeTodos = idadeTodos / (totalPessoasFeminino + totalPessoasMasculino);
        double mediaSalarioTodos = salarioTodos / (salarioMasculino + salarioFeminino);
+        System.out.println("A media de idades é: " + mediaIdadeTodos);
+        System.out.println("A média de idade das pessoas do genero feminino é: " + mediaIdadeFeminino);
+        System.out.println("A média de idade das pessoas do genero masculino é: " + mediaIdadeMasculino);
+        System.out.println("A média salarial de todos é: " + mediaSalarioTodos);
+        System.out.println("A média salarial das pessoas do genero feminino é: " + mediaSalarioFeminino);
+        System.out.println("A média salarial das pessoas do genero masculino é: " + mediaSalarioMasculino);
+        System.out.println("O maior salario é: " + maiorSalario);
+        System.out.println("O menor salario é: " + menorSalario);
 
     }
 }
